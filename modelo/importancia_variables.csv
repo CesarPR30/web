@@ -1,0 +1,6 @@
+variable,etiqueta,importancia,direccion
+pct_ventas_aceptantes,% de ventas a aceptantes,0.4483,+
+factoring_previo,Ya usó factoring,0.2169,+
+crecimiento_ventas,Crecimiento de ventas,0.1562,+
+uso_linea_credito,Uso de línea de crédito,0.0962,+
+flag_lead,Marcada como lead,0.0824,+

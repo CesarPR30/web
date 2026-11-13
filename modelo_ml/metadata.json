@@ -1,0 +1,8 @@
+{
+  "tipo": "modelo",
+  "nombre": "Modelo ML",
+  "version": "forecast jun 2026",
+  "fecha": "2026-11-07",
+  "monto": "Estimado con el historial",
+  "horizonte": "1 mes"
+}

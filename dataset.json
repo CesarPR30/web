@@ -1,0 +1,32 @@
+{
+  "nombre": "DataFest 2026",
+  "carpeta_datos": "data/full",
+  "carpeta_modelo": "modelo_ml",
+  "predicciones_ml": [
+    "modelo/predicciones_grupo1.csv",
+    "modelo/predicciones_grupo2.csv",
+    "modelo/predicciones_grupo3.csv"
+  ],
+  "archivos": {
+    "maestro": "1_maestro_empresas.csv",
+    "transacciones": "2_transacciones.csv",
+    "factoring": "3_operaciones_factoring.csv",
+    "perfil": "4_perfil_historico.csv"
+  },
+  "columnas": {
+    "maestro": {},
+    "transacciones": {},
+    "factoring": {},
+    "perfil": {}
+  },
+  "corte": 202606,
+  "tipo_cambio_usd": 3.75,
+  "segmento_aceptante": "Corporativa",
+  "supuestos": {
+    "capacidad_contactos": 5000,
+    "costo_contacto": 120,
+    "costo_onboarding": 900,
+    "umbral_habilitacion": 0.035
+  },
+  "capacidad_max": 20000
+}

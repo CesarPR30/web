@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campaña Factoring</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="topband"></div>
+<header class="appbar">
+  <div class="brand">
+    <img src="assets/logo-bcp.png" alt="BCP" width="87" height="35">
+    <div class="brand-text"><strong id="brandTitulo">Campaña de factoring</strong><span id="brandSub"></span></div>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button role="tab" data-view="resumen">Resumen</button>
+    <button role="tab" data-view="simulador">Simulador</button>
+    <button role="tab" data-view="lista">Lista a contactar</button>
+    <button role="tab" data-view="red">Red de aceptantes</button>
+    <span class="tab-ink" aria-hidden="true"></span>
+  </nav>
+  <div id="modelBadge" class="badge"></div>
+  <button id="btnAjustes" class="cfg-btn" type="button" aria-label="Ajustes del dashboard" title="Ajustes" aria-expanded="false" aria-controls="ajustes"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-2.9-1.2l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-1.2-2.9H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.2-2.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 2.9 1.2l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+</header>
+
+<main>
+  <section id="view-resumen" class="view" hidden></section>
+  <section id="view-simulador" class="view" hidden></section>
+  <section id="view-lista" class="view" hidden></section>
+  <section id="view-red" class="view" hidden></section>
+</main>
+
+<footer class="foot">
+  <span id="footMarca">DataFest | Caso de negocio</span>
+  <span id="footInfo"></span>
+</footer>
+
+<div id="tooltip" class="tooltip" role="status" hidden></div>
+<div id="scrim" class="scrim" hidden></div>
+<aside id="drawer" class="drawer" aria-label="Ficha de empresa" aria-hidden="true" tabindex="-1"></aside>
+<aside id="ajustes" class="drawer" role="dialog" aria-label="Ajustes del dashboard" aria-hidden="true" tabindex="-1"></aside>
+
+<script src="vendor/d3.min.js"></script>
+<script src="inputs/meta.js"></script>
+<script src="inputs/resumen.js"></script>
+<script src="inputs/simulador.js"></script>
+<script src="inputs/lista.js"></script>
+<script src="inputs/red.js"></script>
+<script src="inputs/ajustes.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

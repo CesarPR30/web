@@ -1,0 +1,20 @@
+# Bases: no caben en GitHub (limite 100 MB por archivo). Copiarlas a mano en data/full/.
+data/full/
+data/sample/_ground_truth.csv
+
+# Predicciones: las del equipo de ML pesan demasiado; las demas se regeneran con actualizar.py
+modelo/predicciones*.csv
+modelo_ml/predicciones.csv
+
+# Intermedios del pipeline
+pipeline/_cache/
+__pycache__/
+
+# Video y material de los organizadores
+video/
+*.pdf
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
